@@ -1,0 +1,180 @@
+Sistema de Gerenciamento de Tarefas Pessoais
+📋 Visão Geral do Projeto
+Sistema web para gerenciamento de tarefas pessoais desenvolvido para o cliente Givanildo, empreendedor autônomo que necessita de uma ferramenta simples e prática para organizar suas atividades diárias, substituindo o uso de post-its e planilhas.
+
+🎯 Objetivo
+Desenvolver um Produto Mínimo Viável (MVP) com funcionalidades essenciais para gerenciamento básico e eficaz de tarefas pessoais.
+
+👤 Perfil do Cliente
+Nome: Givanildo
+Perfil: Empreendedor autônomo
+Necessidade: Organização de tarefas diárias
+Situação Atual: Uso desorganizado de post-its e planilhas
+Nível Técnico: Baixa experiência com sistemas complexos
+📝 Requisitos Funcionais
+RF01 - Autenticação Simplificada
+✅ Cadastro rápido (apenas e-mail e senha)
+✅ Login direto sem processos complexos
+✅ Validação básica de dados
+RF02 - Gerenciamento de Tarefas
+✅ Criar tarefas com título e descrição obrigatórios
+✅ Visualizar todas as tarefas em lista
+✅ Editar tarefas existentes
+✅ Excluir tarefas desnecessárias
+RF03 - Controle de Status
+✅ Marcar tarefas como concluídas
+✅ Visualização diferenciada para tarefas finalizadas
+✅ Opção de ocultar tarefas concluídas
+✅ Filtros por status (todas/pendentes/concluídas)
+RF04 - Categorização (Mudança 01)
+✅ Classificação por categorias (Trabalho, Pessoal, Escola, etc.)
+✅ Filtros por categoria
+✅ Dropdown de seleção de categoria
+RF05 - Disponibilidade Web
+✅ Acesso via navegador web
+✅ Responsivo para diferentes dispositivos
+🔄 Casos de Uso
+Atores
+Usuário Principal: Givanildo (empreendedor autônomo)
+Casos de Uso Identificados
+Autenticação
+
+Cadastrar-se no sistema
+Fazer login
+Gerenciamento de Tarefas
+
+Criar nova tarefa
+Visualizar lista de tarefas
+Editar tarefa existente
+Excluir tarefa
+Marcar/desmarcar como concluída
+Organização e Filtros
+
+Filtrar tarefas por status
+Filtrar tarefas por categoria
+Ocultar tarefas concluídas
+🛠️ Stack Tecnológica Sugerida
+Frontend
+HTML5, CSS3, JavaScript
+Framework: React.js ou Vue.js
+Estilização: Bootstrap ou Tailwind CSS
+Backend
+Node.js com Express.js
+Alternativa: Python com Django/Flask
+Banco de Dados
+PostgreSQL (recomendado)
+Alternativa: MySQL ou SQLite (desenvolvimento)
+Hospedagem
+Frontend: Vercel, Netlify
+Backend: Heroku, Railway, AWS
+Banco: ElephantSQL, PlanetScale
+📅 Cronograma de Desenvolvimento
+Fase 1 - MVP (4-6 semanas)
+Semana 1-2: Desenvolvimento da autenticação e estrutura base
+Semana 3-4: CRUD de tarefas e sistema de categorização
+Semana 5-6: Interface do usuário e testes iniciais
+Fase 2 - Melhorias (2-3 semanas)
+Implementação de filtros avançados
+Melhorias de UX/UI
+Testes com o cliente
+Correções e ajustes finais
+🔄 Mudanças de Requisitos
+Mudança 01 - Categorização
+Data: Durante fase de documentação
+Solicitação: Diferenciação de compromissos por categorias (Trabalho, Pessoal, Escola)
+Status: ✅ Implementada na documentação
+Impacto: +15-20% no tempo de desenvolvimento
+
+📊 Análise de Impacto da Mudança 01
+Impactos Positivos
+✅ Melhora significativa na organização das tarefas
+✅ Atende necessidades específicas de empreendedor com múltiplas frentes
+✅ Facilita análises futuras de produtividade por área
+✅ Permite priorização por contexto (trabalho vs pessoal)
+Impactos no Desenvolvimento
+🔧 Adição de campo categoria no banco de dados
+🔧 Implementação de filtros adicionais na interface
+🔧 Ajustes nas telas de criação e edição de tarefas
+🔧 Validação de categorias no backend
+Impactos no Cronograma
+⏱️ Aumento estimado de 15-20% no tempo total de desenvolvimento
+⏱️ Sem impacto significativo por estar na fase de documentação
+⏱️ Mudança implementada no momento ideal do projeto
+🚀 Funcionalidades Futuras (Backlog)
+📧 Notificações por e-mail
+📅 Definição de prazos e lembretes
+📊 Relatórios de produtividade por categoria
+📱 Aplicativo mobile
+👥 Compartilhamento de tarefas
+🔄 Sincronização em tempo real
+🎨 Temas personalizáveis
+📈 Dashboard com métricas de produtividade
+⚠️ Riscos Identificados
+Risco
+
+Probabilidade
+
+Impacto
+
+Mitigação
+
+Mudanças de escopo durante desenvolvimento
+
+Baixa
+
+Médio
+
+Documentação clara e aprovação formal de requisitos
+
+Expectativas de performance em dispositivos móveis
+
+Média
+
+Baixo
+
+Testes responsivos em diferentes dispositivos
+
+Necessidade de funcionalidades não previstas
+
+Baixa
+
+Baixo
+
+Comunicação constante com o cliente
+
+Complexidade crescente das categorias
+
+Média
+
+Médio
+
+Manter simplicidade inicial, evoluir gradualmente
+
+📈 Métricas de Sucesso
+Indicadores Técnicos
+⚡ Tempo de carregamento < 3 segundos
+📱 Compatibilidade com 95% dos navegadores modernos
+🔒 Zero falhas de segurança críticas
+⏱️ Tempo de resposta das operações < 1 segundo
+Indicadores de Usuário
+😊 Facilidade de uso (escala 1-10): meta > 8
+🎯 Taxa de conclusão de tarefas: acompanhar evolução
+📊 Uso regular do sistema: > 80% dos dias úteis
+🔄 Redução no uso de post-its e planilhas: 100%
+🔍 Lições Aprendidas
+Levantamento de Requisitos
+✅ Entrevista direta com cliente foi fundamental
+✅ Foco na simplicidade atende perfil do usuário
+✅ Mudanças na fase de documentação são menos custosas
+✅ Cliente valoriza praticidade sobre funcionalidades avançadas
+Análise Técnica
+🎯 MVP bem definido facilita desenvolvimento focado
+🎯 Categorização simples atende 80% das necessidades organizacionais
+🎯 Interface web responsiva é suficiente para início
+🎯 Arquitetura simples permite evolução gradual
+📞 Informações do Projeto
+Cliente: Givanildo
+Tipo: Sistema de Gerenciamento de Tarefas Pessoais
+Data de Início: 26 de agosto de 2025
+Status Atual: 📝 Documentação Completa - Pronto para Desenvolvimento
+Próxima Fase: Desenvolvimento do MVP
