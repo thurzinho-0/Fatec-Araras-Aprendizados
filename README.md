@@ -11,6 +11,6 @@ Centralizar e organizar todo o conhecimento adquirido durante o curso, servindo 
 🤝 Compartilhamento de conhecimento com colegas
 🏫 Informações Acadêmicas
 Instituição: FATEC Araras
-Curso: [Nome do seu curso]
-Período: [Período atual - ex: 3º Semestre]
-Ano de Ingresso: [Ano]
+Curso: [DSM]
+Período: [Período atual 2 ]
+Ano de Ingresso: [2025]
